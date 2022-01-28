@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>V-lab Task</title>
   <style>
     @import url("https://fonts.googleapis.com/css?family=Montserrat");
 
@@ -32,14 +32,18 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 1rem;
-      margin: 0rem 0.5rem;
+      font-size: 1.4rem;
+      background-color: rgb(250, 246, 246);
+      margin: 0rem 1.5rem;
       cursor: move;
+      font-weight: 400;
+      border: 1px solid salmon;
       transition: opacity 0.2s;
     }
 
     .draggable:hover {
       opacity: 0.5;
+      background-color: rgb(238, 210, 210);
     }
 
     .droppable,
@@ -70,6 +74,7 @@
       /* background-color: #bee3f0; */
       border-width: 5px;
       transform: scale(1.1);
+      
     }
 
     .droppable.dropped {
@@ -93,6 +98,7 @@
 
     .draggable.dragged:hover {
       opacity: 0.1;
+      
     }
 
     .qna {
@@ -121,23 +127,23 @@
       <!-- answers -->
       <!-- 1 -->
       <div class="draggable" draggable="true" style="color: #ff6384" id="ques1">
-        <p>4</p>
+        <p>Attribute</p>
       </div>
       <!-- 2 -->
       <div class="draggable" draggable="true" style="color: #36a2eb" id="ques2">
-        <p>6</p>
+        <p>An Object Oriented Prog. Language. </p>
       </div>
       <!-- 3 -->
       <div class="draggable" draggable="true" style="color: #ffce56" id="ques3">
-        <p>8</p>
+        <p>Array</p>
       </div>
       <!-- 4 -->
       <div class="draggable" draggable="true" style="color: #9966ff" id="ques4">
-        <p>80</p>
+        <p>Function</p>
       </div>
       <!-- 5 -->
       <div class="draggable" draggable="true" style="color: #4bc0c0" id="ques5">
-        <p>10</p>
+        <p>IDE (Integrated Development Environment).</p>
       </div>
     </section>
 
@@ -148,23 +154,23 @@
         </h1>
         <!-- 1 -->
         <div class="ques">
-          <p>3+3</p>
+          <p>Python is an _____ .</p>
         </div>
         <!-- 2 -->
         <div class="ques">
-          <p>5+5</p>
+          <p>An ______ is Used to edit and Compile the code .</p>
         </div>
         <!-- 3 -->
         <div class="ques">
-          <p>4+4</p>
+          <p>_____ are used to store multiple values in a single variable .</p>
         </div>
         <!-- 4 -->
         <div class="ques">
-          <p>40+40</p>
+          <p>_____ is a block of code which runs when it is called .</p>
         </div>
         <!-- 5 -->
         <div class="ques">
-          <p>2+2</p>
+          <p>______ provide additonal info. about elements .</p>
         </div>
       </section>
 
