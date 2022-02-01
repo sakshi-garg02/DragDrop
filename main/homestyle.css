@@ -1,0 +1,50 @@
+body {
+  background: white ;
+ 
+}
+
+   
+
+      .hide {
+          display: none;
+         
+        }
+
+
+      h2 { 
+          text-align: left;
+          color: black;
+
+      }
+
+
+      .myDIV { 
+
+      height:50vh;
+      padding: 0 50px;
+      }
+
+      .card1{
+        margin-right: 46px;
+      }
+      .inst{
+        padding: 0 56px 5px 36px;
+        
+
+
+
+}
+      
+      #abc{
+  
+
+        font-size: 25px;
+        line-height: 34px;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-family: Georgia, serif;
+    }
+    
+      
+
+     
